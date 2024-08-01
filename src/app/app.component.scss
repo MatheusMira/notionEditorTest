@@ -1,0 +1,92 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  .header {
+    margin-bottom: 20px;
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+  }
+
+  .defaultInput {
+    width: 100%;
+    padding: 10px 10px 10px 0px;;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+
+  .editor {
+    position: relative;
+
+    .options {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .options span {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .add-options {
+      background: #f7f7f7;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      width: 250px;
+    }
+    
+    .add-options span {
+      display: flex;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .inputValue{
+      margin-left: 6px;
+      background-color: #3565A9;
+      color: white !important;
+      border-radius: 3px;
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 5px;
+    }
+    .option .shortcut {
+      font-weight: bold;
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    
+    .option .hint {
+      font-size: 12px;
+      color: #999;
+    }
+
+  }
+}
+
+
